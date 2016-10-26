@@ -1,4 +1,4 @@
-compile:
-	gcc charles.c -o charlestest
+compile: RNG.c
+	gcc RNG.c -o test
 run: 
-	./charlestest
+	./test
